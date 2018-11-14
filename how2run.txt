@@ -1,0 +1,15 @@
+compile:
+
+$ ./make_project.sh
+
+
+1. kitti
+
+$ cd bin
+
+$ ./run_dso_kitti \preset=0 \files=/home/farid/datasets/KITTI/sequences/00 \calib=/home/farid/WS_Farid/LDSO/examples/Kitti/Kitti00-02.txt
+
+2. EuRoC
+
+$ ./run_dso_euroc \preset=0 \files=/home/farid/datasets/EuRoC/mav0/cam0/ \calib=/home/farid/WS_Farid/LDSO/examples/EUROC/EUROC.txt
+
