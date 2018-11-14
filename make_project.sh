@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "---------------- COMPILING modified_LDSO ----------------"
+
 BUILD_TYPE=Release
 NUM_PROC=4
 

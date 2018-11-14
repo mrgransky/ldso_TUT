@@ -27,8 +27,8 @@ using namespace ldso;
 
 string source 		= "/home/farid/datasets/EuRoC/mav0/cam0/";
 string output_file 	= "./results.txt";
-string calib 		= "/home/farid/WS_Farid/LDSO/examples/EUROC/EUROC.txt";
-string vocPath 		= "/home/farid/WS_Farid/LDSO/vocab/orbvoc.dbow3";
+string calib 		= "/home/farid/WS_Farid/ldso_TUT/examples/EUROC/EUROC.txt";
+string vocPath 		= "/home/farid/WS_Farid/ldso_TUT/vocab/orbvoc.dbow3";
 
 int startIdx = 0;
 int endIdx = 10000;

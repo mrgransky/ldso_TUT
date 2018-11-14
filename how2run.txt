@@ -1,15 +1,18 @@
 compile:
+$ chmode +x make_project.sh install_dependencies.sh
 
+$ ./install_dependencies.sh
 $ ./make_project.sh
 
+run:
 
 1. kitti
 
 $ cd bin
 
-$ ./run_dso_kitti \preset=0 \files=/home/farid/datasets/KITTI/sequences/00 \calib=/home/farid/WS_Farid/LDSO/examples/Kitti/Kitti00-02.txt
+$ ./run_dso_kitti \preset=0 \files=/home/farid/datasets/KITTI/sequences/00 \calib=/home/farid/WS_Farid/ldso_TUT/examples/Kitti/Kitti00-02.txt
 
 2. EuRoC
 
-$ ./run_dso_euroc \preset=0 \files=/home/farid/datasets/EuRoC/mav0/cam0/ \calib=/home/farid/WS_Farid/LDSO/examples/EUROC/EUROC.txt
+$ ./run_dso_euroc \preset=0 \files=/home/farid/datasets/EuRoC/mav0/cam0/ \calib=/home/farid/WS_Farid/ldso_TUT/examples/EUROC/EUROC.txt
 
