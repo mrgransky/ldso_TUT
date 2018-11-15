@@ -16,3 +16,6 @@ $ ./run_dso_kitti \preset=0 \files=/home/farid/datasets/KITTI/sequences/00 \cali
 
 $ ./run_dso_euroc \preset=0 \files=/home/farid/datasets/EuRoC/mav0/cam0/ \calib=/home/farid/WS_Farid/ldso_TUT/examples/EUROC/EUROC.txt
 
+3. TUM Mono
+
+$ ./run_dso_tum_mono \preset=0 \files=/home/farid/datasets/TUM/Mono_VO/sequence_33/images/ \vignette=/home/farid/datasets/TUM/Mono_VO/sequence_33/vignette.png \calib=/home/farid/datasets/TUM/Mono_VO/sequence_33/camera.txt \gamma=/home/farid/datasets/TUM/Mono_VO/sequence_33/pcalib.txt

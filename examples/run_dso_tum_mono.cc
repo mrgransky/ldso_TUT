@@ -11,21 +11,15 @@
 #include "frontend/FullSystem.h"
 #include "DatasetReader.h"
 
-/*********************************************************************************
- * This program demonstrates how to run LDSO in TUM-Mono dataset
- * which is the default dataset in DSO and quite difficult because of low texture
- * Please specify the dataset directory below or by command line parameters
- *********************************************************************************/
-
 using namespace std;
 using namespace ldso;
 
-std::string vignette = "/media/Data/Dataset/TUM/Mono/sequence_34/vignette.png";
-std::string gammaCalib = "/media/Data/Dataset/TUM/Mono/sequence_34/pcalib.txt";
-std::string source = "/media/Data/Dataset/TUM/Mono/sequence_34/images.zip";
-std::string calib = "/media/Data/Dataset/TUM/Mono/sequence_34/camera.txt";
-std::string output_file = "./results.txt";
-std::string vocPath = "./vocab/orbvoc.dbow3";
+string vignette 	= "/home/farid/datasets/TUM/Mono_VO/sequence_33/vignette.png";
+string gammaCalib 	= "/home/farid/datasets/TUM/Mono_VO/sequence_33/pcalib.txt";
+string source 		= "/home/farid/datasets/TUM/Mono_VO/sequence_3/images";
+string calib 		= "/home/farid/datasets/TUM/Mono_VO/sequence_33/camera.txt";
+string output_file 	= "./results.txt";
+string vocPath 		= "/home/farid/WS_Farid/ldso_TUT/vocab/orbvoc.dbow3";
 
 double rescale = 1;
 bool reversePlay = false;
