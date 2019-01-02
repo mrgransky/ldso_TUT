@@ -1,5 +1,5 @@
 compile:
-$ chmode +x make_project.sh install_dependencies.sh
+$ chmod +x make_project.sh install_dependencies.sh
 
 $ ./install_dependencies.sh
 $ ./make_project.sh

@@ -25,10 +25,10 @@ using namespace ldso;
  * Please specify the dataset directory below or by command line parameters
  *********************************************************************************/
 
-string source 		= "/home/farid/datasets/EuRoC/mav0/cam0/";
+string source 		= "/home/xenial/Datasets/EuRoC/mav0/cam0/";
 string output_file 	= "./results.txt";
-string calib 		= "/home/farid/WS_Farid/ldso_TUT/examples/EUROC/EUROC.txt";
-string vocPath 		= "/home/farid/WS_Farid/ldso_TUT/vocab/orbvoc.dbow3";
+string calib 		= "/home/xenial/WS_Farid/ldso_TUT/examples/EUROC/EUROC.txt";
+string vocPath 		= "/home/xenial/WS_Farid/ldso_TUT/vocab/orbvoc.dbow3";
 
 int startIdx = 0;
 int endIdx = 10000;
